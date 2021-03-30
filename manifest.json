@@ -1,0 +1,10 @@
+{
+  "name": "Background colour changer",
+  "description": "This is the first extension I made following the getting started tutorial on the chrome developer page. Hope to extend it in future and add more features to it.",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["storage"]
+}
