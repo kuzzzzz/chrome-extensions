@@ -6,4 +6,5 @@ chrome.runtime.onInstalled.addListener(() => {
 });
 
 
+// Chrome sync is like local storage but for chrome extensions
 // By adding %c to green you are formatting the text to take in the green color specified in the green variable

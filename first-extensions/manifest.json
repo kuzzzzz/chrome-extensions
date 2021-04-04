@@ -1,13 +1,26 @@
 {
   "name": "Background colour changer",
-  "description": "This is the first extension I made following the getting started tutorial on the chrome developer page. Hope to extend it in future and add more features to it.",
+  "options_page": "options.html",
+  "description": "This is the first extension I made following the getting started tutorial on the chrome developer page. ",
   "version": "1.0.0",
   "manifest_version": 3,
   "background": {
     "service_worker": "background.js"
   },
-  "permissions": ["storage"],
+  "permissions": ["storage", "activeTab", "scripting"],
   "action": {
-    "default_popup": "popup.html"
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/img/chrome-extension.png",
+      "32": "/img/chrome-extension.png",
+      "48": "/img/chrome-extension.png",
+      "128": "/img/chrome-extension.png"
+    }
+  },
+  "icons": {
+    "16": "/img/chrome-extension.png",
+    "32": "/img/chrome-extension.png",
+    "48": "/img/chrome-extension.png",
+    "128": "/img/chrome-extension.png"
   }
 }
